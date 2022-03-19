@@ -1,6 +1,6 @@
 
 def print_full_name(first, last):
-    # first, last = input(" ").split("\n")
+    first, last = input(" ").split("\n")
     a = ("Hello {} {}! You just delved into python.".format(first,last))
     return a
 

@@ -5,4 +5,3 @@ A,B = map(str, input().split())
  
 for i in permutations(sorted(A), int(B)):
     print("".join(i))
-dtstud
